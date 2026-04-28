@@ -1,6 +1,6 @@
 # IPL Data Analysis
 
-This project analyzes Indian Premier League (IPL) match and ball-by-ball data to uncover patterns in team performance, match-winning strategies, player impact, and scoring behavior across seasons.
+This project analyzes Indian Premier League (IPL) match and ball-by-ball data to uncover patterns in team performance, match-winning strategies, player impact, and scoring behavior across seasons till 2020.
 
 ## Project Objective
 
@@ -21,7 +21,7 @@ The objective of this project is to perform exploratory data analysis on IPL dat
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
-- Power BI *(dashboard to be added)*
+- Power BI
 
 ## Dataset
 
@@ -53,6 +53,21 @@ The analysis includes the following key areas:
 7. Venue-wise Average Score  
 8. Player Impact Analysis (PoTM vs Matches Played)
 
+## Power BI Dashboard
+
+An interactive Power BI dashboard was built to complement the Python analysis and provide a visual summary of key IPL insights.
+
+The dashboard includes:
+
+- Match-level overview
+- Most successful teams
+- Toss impact analysis
+- Batting first vs chasing comparison
+- Venue distribution map
+- Top Player of the Match winners
+- Matches played by season
+- Average first innings score by venue
+
 ## Key Insights
 
 - Mumbai Indians and Chennai Super Kings have been the most successful IPL franchises.
@@ -68,8 +83,12 @@ The analysis includes the following key areas:
 ```text
 ipl-data-analysis/
 │
-├── matches.csv
-├── deliveries.csv
+├── data/
+│   ├── matches.csv
+│   └── deliveries.csv
+│
 ├── main.ipynb
+├── IPL_Dashboard.pbix
+├── dashboard_preview.png
 └── README.md
 ```
